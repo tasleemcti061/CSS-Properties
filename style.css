@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 95, 147);
+}
+
+.css {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.84);
+    color: aqua;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
+
+.wonders {
+    text-align: center;
+    font-size: 2.0rem;
+    margin-top: 0px;
+    color: bisque;
+}
+
+   
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+}
+.slider figure div{
+    float: left;
+    width:14.28%
+}
+.slider figure img{
+width: 100%;
+height: 80vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+float: left;
+box-shadow: 1px 2px 10px white;
+}
+.slider figure{
+    position:relative;
+    width: 701%;
+    margin: 0;
+    animation: animate 28s infinite linear;
+}
+a{
+    position: fixed;
+    color:  yellow;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 350px;
+    width: 100%;
+    height: 100vh;
+}
+@keyframes animate{
+    0%{left:0;}
+   10%{left:0;}
+    12%{left:-100%;}
+    22%{left:-100%;}
+    24%{left:-200%;}
+    34%{left:-200%;}
+    36%{left:-300%;}
+    46%{left:-300%;}
+    48%{left:-400%;}
+    58%{left:-400%;}
+    60%{left:-500%;}
+    70%{left:-500%;}
+    72%{left:-600%;}
+    82%{left:-600%;}
+    84%{left:0;}
+}
+
+
